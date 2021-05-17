@@ -1,0 +1,29 @@
+<div class="container">
+    <p>user-list works!</p>
+    <h1> User List</h1>
+    
+    <a href="Javascript:void(0)" routerLink ="/add-user">Add User</a>
+    
+    <table width="700" border="1" cellspacing="0" style="text-align: center;">
+      <thead>
+          <tr>
+          <th style="text-align: center;">Name</th>
+          <th style="text-align: center;">Adress</th>
+          <th style="text-align: center;">Phone</th>
+        </tr>
+      </thead>
+    
+        <tbody>
+            <tr *ngFor="let c of users">
+    
+            <td>{{c.name}}</td>
+          <td>{{c.adress}}</td>
+          <td>{{c.phno}}</td>
+    
+        </tr>
+        </tbody>
+    
+    
+    </table>
+    
+    </div>

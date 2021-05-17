@@ -1,0 +1,44 @@
+.breadcrumps-section{
+    background-color:#3498db;
+    text-align: center;
+    color:black;
+}
+  .home-newsletter{
+    background-color:crimson;
+    color: white;
+
+  }
+.home-newsletter .form-control{
+    height:50px;
+    border-radius: 20px 0 0 20px;
+    border-color: transparent;
+
+}
+.home-newsletter .btn{
+    min-height: 50px;
+    border-radius: 0 20px 20px 0;
+    background:blueviolet;
+    color: white;
+}
+.about-company{
+    background-color:indigo;
+    color:white;
+
+}
+.card{
+    background-color: chartreuse;
+    color: black;
+}
+.card1{
+    background-color: deeppink;
+    color: black;
+}
+.card2{
+    background-color: rgb(183, 219, 20);
+    color: black;
+}
+.last-item{
+    background-color:indigo;
+    color: white;
+    font-weight: 600;
+}
